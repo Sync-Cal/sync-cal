@@ -1,10 +1,9 @@
-package main
+package synccal
 
 import (
 	// "golang-calendar-sync/config"
 
 	"fmt"
-
 	"github.com/Sync-Cal/sync-cal/config"
 	"google.golang.org/api/calendar/v3"
 )
