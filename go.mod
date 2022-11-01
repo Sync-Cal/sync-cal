@@ -1,4 +1,4 @@
-module golang-calendar-sync
+module github.com/Sync-Cal/sync-cal
 
 go 1.19
 

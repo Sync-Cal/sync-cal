@@ -3,13 +3,13 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/apognu/gocal"
-	"golang-calendar-sync/config"
-	"google.golang.org/api/calendar/v3"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"time"
+	"github.com/Sync-Cal/sync-cal/config"
+	"github.com/apognu/gocal"
+	"google.golang.org/api/calendar/v3"
 )
 
 func getProgramConfig() *config.Config {
